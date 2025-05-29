@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Shopify Example",
+    "slug": "react-native-shopify-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0081A3"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.shopify",
+      "appleTeamId": "EXAMPLE"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.shopify"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Manrope-Regular.ttf",
+            "./assets/fonts/Manrope-Medium.ttf",
+            "./assets/fonts/Manrope-SemiBold.ttf",
+            "./assets/fonts/Manrope-Bold.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+export const en = {
+  common: {
+    welcome: 'Welcome',
+    loading: 'Loading...',
+    error: 'Error',
+    success: 'Success',
+    readMore: 'Read More',
+    showLess: 'Show Less',
+  },
+  auth: {
+    login: 'Login',
+    logout: 'Logout',
+    signup: 'Sign Up',
+  },
+  store: {
+    selectStore: 'Select Store',
+    currentStore: 'Current Store',
+    switchStore: 'Switch Store',
+    noStoresAvailable: 'No stores available',
+  },
+  cart: {
+    title: 'Shopping Cart',
+    empty: 'Your cart is empty',
+    checkout: 'Checkout',
+  },
+  product: {
+    addToCart: 'Add to Cart',
+    outOfStock: 'Out of Stock',
+    price: 'Price',
+    notAvailableInCountry: 'This product is not available in your country',
+    locked: 'This product is not available to you at this time',
+    checkout: 'Checkout',
+    buyNow: 'Buy Now',
+    description: 'Description',
+  },
+  screens: {
+    products: {
+      title: 'Products',
+      searchPlaceholder: 'Search products...',
+      noResults: 'No results found',
+      noProducts: 'No products available',
+    },
+  },
+  checkout: {
+    error: 'Checkout Error',
+    genericError: 'An error occurred during checkout',
+  },
+  'screens.products.searchPlaceholder': 'Search products...',
+  'screens.products.title': 'Products',
+  'stores.example-store-uk.myshopify.com': 'Example Store UK',
+  'stores.example-store-de.myshopify.com': 'Example Store DE',
+  'stores.example-store-at.myshopify.com': 'Example Store AT',
+  'stores.example-store-ch.myshopify.com': 'Example Store CH',
+  'stores.example-store-fr.myshopify.com': 'Example Store FR',
+  'stores.example-store-pl.myshopify.com': 'Example Store PL',
+};
