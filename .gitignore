@@ -75,3 +75,11 @@ yarn-error.log
 .expo/
 dist/
 web-build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
